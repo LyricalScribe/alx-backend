@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-function takes two integer 
+function takes two integer
 arguments page and page_size
 """
 import csv
@@ -62,4 +62,3 @@ class Server:
             'total_pages': int(total_pages)
         }
         return my_dict
-

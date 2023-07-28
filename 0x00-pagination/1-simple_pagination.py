@@ -9,7 +9,6 @@ import math
 from typing import List
 
 
-
 def index_range(page: int, page_size: int) -> tuple:
     """returns index range"""
     return (((page - 1) * page_size), page * page_size)
@@ -44,4 +43,3 @@ class Server:
             return dataset
         except Exception:
             return []
-
